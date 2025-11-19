@@ -1,0 +1,56 @@
+📜 DFS Problem Sheet ("pure-DFS")
+🔹 1. Basic DFS Traversal
+
+Status	Level	Problem	Platform	Key Idea
+✅	Easy	DFS of Graph 🎯	GFG	First step ✔️
+✅	Easy	Preorder Traversal	Leetcode 144	Tree DFS ✔️
+✅	Easy	Inorder Traversal	Leetcode 94	Tree DFS ✔️
+✅	Easy	Postorder Traversal	Leetcode 145	Tree DFS ✔️
+✅	Easy	Binary Tree Paths	Leetcode 257	Path recording ✔️
+
+🔹 2. DFS in Disconnected Graph / Components
+
+Status	Level	Problem	Platform	Key Idea
+✅	Easy	Number of Provinces 🎯	Leetcode 547	Undirected components ✔️
+✅	Medium	Number of Islands 🎯	Leetcode 200	Grid = graph
+✅	Medium	Max Area of Island	Leetcode 695	Connected cells area
+✅	Medium	Count Sub-Islands	Leetcode 1905	DFS/BFS either 
+✅	Medium	Surrounded Regions	Leetcode 130	Boundary DFS
+
+🔹 3. DFS Path Finding & Backtracking
+
+Status	Level	Problem	Platform	Key Idea
+✅	Easy	Path Sum I	Leetcode 112	Root-to-leaf check ✔️
+✅	Medium	Path Sum II 🎯	Leetcode 113	Collect all paths ✔️
+✅	Medium	Word Search 🎯	Leetcode 79	Grid DFS + backtrack ✔️
+✅	Medium	Rat in a Maze	GFG	Classic backtrack ✔️
+✅	Medium	N-Queens 🎯	Leetcode 51	DFS with constraints ❌
+✅	Hard	Sudoku Solver 🎯	Leetcode 37	Deep backtracking ❌
+
+🔹 4. DFS for Cycles & Coloring
+
+Status	Level	Problem	Platform	Key Idea
+✅	Easy	Detect Cycle in Undirected Graph 🎯	GFG	Parent tracking ✔️
+✅	Medium	Detect Cycle in Directed Graph 🎯	GFG	Recursion stack ✔️
+✅	Medium	Course Schedule I 🎯	Leetcode 207	DFS + cycle detect ✔️
+✅	Medium	Course Schedule II 🎯	Leetcode 210	Topo via DFS ✔️
+✅   Medium	Is Graph Bipartite  🎯 GFG ✅
+✅	Medium	Is Graph Bipartite?	Leetcode 785	DFS coloring ✔️
+
+🔹 5. DFS in Grid / Simulation
+
+Status	Level	Problem	Platform	Key Idea
+✅	Easy	Flood Fill 🎯	Leetcode 733	DFS coloring ✔️
+✅	Medium	Word Search II	Leetcode 212	Trie + DFS ❌
+✅	Medium	Pacific Atlantic Water Flow 🎯	Leetcode 417	Reverse DFS from borders ✔️
+✅	Medium	Escape the Ghosts	Leetcode 789	DFS/grid thinking ✔️
+✅	Hard	Longest Increasing Path 🎯	Leetcode 329	Memoized DFS ❌
+
+🔹 6. DFS in Special Graphs (Recursive + Backtrack)
+
+Status	Level	Problem	Platform	Key Idea
+✅	Medium	Combination Sum 🎯	Leetcode 39	DFS explore sums ✔️
+✅	Medium	Combination Sum II	Leetcode 40	With duplicates ✔️
+✅	Medium	Permutations 🎯	Leetcode 46	DFS generate
+✅	Medium	Subsets 🎯	Leetcode 78	DFS powerset
+✅	Medium	Generate Parentheses 🎯	Leetcode 22	DFS balance

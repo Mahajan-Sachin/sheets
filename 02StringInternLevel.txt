@@ -1,0 +1,66 @@
+🔹 1. Basic String Traversal & Building
+| ✅ | Easy | Reverse String | Leetcode 344 | Two pointers |✔️
+| ✅ | Easy | Valid Palindrome | Leetcode 125 | Ignore non-alphanum |✔️
+| ✅ | Easy | Implement strStr() | Leetcode 28 | Naive search |✔️
+| ✅ | Easy | Longest Common Prefix | Leetcode 14 | Char-by-char compare |✔️
+| ✅ | Easy | To Lower Case | Leetcode 709 | Basic conversion |✔️
+| ✅ | Easy | Defanging an IP Address | Leetcode 1108 | Replace character |✔️
+
+🔹 2. String + Stack
+| ✅ | Easy | Remove All Adjacent Duplicates | Leetcode 1047 | Stack simulation |✔️
+| ✅ | Medium | Decode String 🎯 | Leetcode 394 | Nested stack | 
+| ✅ | Medium | Remove K Digits | Leetcode 402 | Monotonic stack | actually hard
+| ✅ | Medium | Basic Calculator II | Leetcode 227 | Stack + eval expression |
+| ✅ | Medium | Make The String Great | Leetcode 1544 | Stack + cancel out |✔️
+
+🔹 3. String + Two Pointers
+| ✅ | Easy | Reverse Vowels of a String | Leetcode 345 | Two pointers inward | ✔️
+| ✅ | Medium | Longest Substring Without Repeating 🎯 | Leetcode 3 | Sliding window | ✔️
+| ✅ | Medium | Minimum Window Substring 🎯 | Leetcode 76 | Shrinkable window | ❌, hard not for interns
+| ✅ | Medium | Valid Palindrome II | Leetcode 680 | At most one skip | ✔️
+| ✅ | Medium | Longest Repeating Character Replacement | Leetcode 424 | Frequency + window | ✔️
+| ✅ | Easy | Merge Strings Alternately | Leetcode 1768 | Zip & merge | ✔️
+
+🔹 4. String + Sliding Window
+| ✅ | Medium | Longest Substring with At Most K Distinct | Leetcode 340 | Shrinking window | ❌ because preminium
+| ✅ | Medium | Permutation in String 🎯 | Leetcode 567 | Sliding freq map | ✔️
+| ✅ | Medium | Find All Anagrams in a String 🎯 | Leetcode 438 | Sliding + count | ✔️
+| ✅ | Medium | Count Number of Nice Subarrays | Leetcode 1248 | Odd count trick | ❌ its an array que not string
+| ✅ | Medium | Max Consecutive Ones III | Leetcode 1004 | Window + counter | ❌ its an array que not string
+| ✅ | Medium | Max Vowels in a Substring | Leetcode 1456 | Window + set lookup | ✔️
+
+🔹 5. String + Hashing / Frequency
+| ✅ | Easy | First Unique Character | Leetcode 387 | Count & index | ✔️
+| ✅ | Easy | Ransom Note | Leetcode 383 | Count chars | ✔️
+| ✅ | Medium | Group Anagrams 🎯 | Leetcode 49 | Sort or freq map key | ✔️
+| ✅ | Medium | Isomorphic Strings | Leetcode 205 | 1-1 mapping | ✔️
+| ✅ | Medium | Longest Palindrome | Leetcode 409 | Max pairs of chars |
+| ✅ | Medium | Check if Two Strings Are Anagrams | GFG / Leetcode | Sort or map |
+
+🔹 6. String + Trie / Prefix Tree
+| ✅ | Medium | Implement Trie 🎯 | Leetcode 208 | Basic structure |
+| ✅ | Medium | Replace Words | Leetcode 648 | Use prefix |
+| ✅ | Medium | Design Add and Search Words | Leetcode 211 | '.' wildcards |
+| ✅ | Medium | Search Suggestions System | Leetcode 1268 | Trie + prefix matching |
+
+🔹 7. String + Dynamic Programming
+| ✅ | Medium | Longest Palindromic Substring 🎯 | Leetcode 5 | DP + expand |
+| ✅ | Medium | Palindromic Substrings | Leetcode 647 | Expand around center |
+| ✅ | Medium | Longest Common Subsequence 🎯 | Leetcode 1143 | DP table |
+| ✅ | Medium | Edit Distance 🎯 | Leetcode 72 | Insert/delete/replace |
+| ✅ | Medium | Delete Operation for Two Strings | Leetcode 583 | Variant of LCS |
+
+🔹 8. String + Backtracking / Recursion
+| ✅ | Medium | Letter Combinations of a Phone Number | Leetcode 17 | Recursion | ✔️
+| ✅ | Medium | Generate Parentheses | Leetcode 22 | Valid path check | ✔️
+| ✅ | Medium | Restore IP Addresses | Leetcode 93 | Recursive path split | ✔️
+| ✅ | Medium | Word Break I 🎯 | Leetcode 139 | DP + set (not II) |
+| ✅ | Medium | Combination Sum (string representation) | Leetcode 39 | Similar recursion logic |
+
+🔹 9. String + Misc / Simulation / Real-life
+| ✅ | Medium | Reorganize String 🎯 | Leetcode 767 | Heap + count |
+| ✅ | Medium | Custom Sort String | Leetcode 791 | Priority order |
+| ✅ | Medium | Multiply Strings | Leetcode 43 | Manual math |
+| ✅ | Medium | Encode and Decode Strings | Leetcode 271 | Use delimiter |
+| ✅ | Easy | Goal Parser Interpretation | Leetcode 1678 | Replace + simulate |
+| ✅ | Medium | Compare Version Numbers | Leetcode 165 | Dot split + simulate |

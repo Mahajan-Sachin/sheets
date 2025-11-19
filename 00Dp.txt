@@ -1,0 +1,95 @@
+🔹 Dynamic Programming Patterns (Easy → Medium, Internship-Focused)
+1. 1D DP – Fibonacci & Variants
+Level	Problem	Platform	Key Idea
+🟢 Easy	Fibonacci Number 🎯	Leetcode 509	Classic base DP ✔️
+🟢 Easy	Climbing Stairs 🎯	Leetcode 70	Fib variant ✔️
+🟢 Easy	Min Cost Climbing Stairs 🎯	Leetcode 746	Cost + stairs ✔️
+🟡 Medium	House Robber I 🎯	Leetcode 198	Pick/skip ✔️
+🟡 Medium	House Robber II	Leetcode 213	Circle variation ✔️
+🟡 Medium	Delete and Earn	Leetcode 740	Reduce to House Robber ✔️
+
+
+2. 2D Grid DP (Paths)
+| Level     | Problem                      | Platform      | Key Idea                          |
+| --------- | ---------------------------  | ------------- | --------------------------------- |
+| 🟢 Easy   | Unique Paths 🎯             | Leetcode 62   | Count ways ✔️                     |
+| 🟢 Easy   | Unique Paths II 🎯          | Leetcode 63   | With obstacles ✔️                 |
+| 🟢 Easy   | Minimum Path Sum 🎯         | Leetcode 64   | Path min sum ✔️                   |
+| 🟡 Medium | Dungeon Game                | Leetcode 174   | Reverse DP ❌ Skip for internship  |
+| 🟡 Medium | Cherry Pickup II            | Leetcode 1463  | Multi-agent ❌ Skip for internship |
+| 🟡 Medium | Out of Boundary Paths 🎯    | Leetcode 576  | Paths go out ✔️                   |
+| 🟡 Medium | Minimum Falling Path Sum 🎯 | Leetcode 931   | DP on matrix ✔️                   |
+
+
+
+3. Knapsack Patterns
+Level	Problem	Platform	Key Idea
+🟡 Medium	Subset Sum 🎯	GFG	Core knapsack ✔️
+🟡 Medium	Partition Equal Subset Sum 🎯	Leetcode 416	Subset sum/2 ✔️
+🟡 Medium	Target Sum 🎯	Leetcode 494	Convert to subset sum ✔️
+🟡 Medium	Coin Change 🎯	Leetcode 322	Min coins ✔️
+🟡 Medium	Coin Change II 🎯	Leetcode 518	Count ways ✔️
+🟡 Medium	Combination Sum IV	Leetcode 377	Order matters ✔️
+🟡 Medium	0/1 Knapsack	GFG	Classic ✔️
+🟡 Medium	Unbounded Knapsack	GFG	Classic ✔️
+
+
+
+4. String DP
+| Level     | Problem                             | Platform      | Key Idea                          |
+| --------- | ----------------------------------  | ------------- | --------------------------------- |
+| 🟢 Easy   | Longest Common Subsequence 🎯      | Leetcode 1143 | Base string DP ✔️                 |
+| 🟡 Medium | Longest Palindromic Subsequence 🎯 | Leetcode 516  | LCS with reverse ✔️               |
+| 🟡 Medium | Edit Distance 🎯                   | Leetcode 72   | Insert/Delete/Replace ✔️          |
+| 🟡 Medium | Distinct Subsequences 🎯           | Leetcode 115  | Count subsequences ✔️             |
+| 🟡 Medium | Regular Expression Matching        | Leetcode 10   | Regex DP ✔️ ❌ Skip for internship |
+| 🟡 Medium | Wildcard Matching                  | Leetcode 44   | Pattern DP ❌ Skip for internship  |
+| 🟡 Medium | Longest Common Substring           | GFG           | Continuous LCS                    |
+
+
+
+5. Palindrome DP
+Level	Problem	Platform	Key Idea
+| Level     | Problem                                  | Platform     | Key Idea                                   |
+| --------- | ---------------------------------------- | ------------ | -----------------------------------------  |
+| 🟢 Easy   | Palindromic Substrings 🎯                | Leetcode 647 | Count pal substrings ✔️                   |
+| 🟡 Medium | Longest Palindromic Substring 🎯         | Leetcode 5   | Expand DP ✔️                              |
+| 🟡 Medium | Min Palindrome Partitioning 🎯           | Leetcode 132 | Cut DP ❌ Skip for internship             |
+| 🟡 Medium | Palindrome Partitioning II               | Leetcode 131 | Partition recursion ❌ Skip for internship |
+| 🟡 Medium | Count Different Palindromic Subsequences | Leetcode 730 | Count subsequences ❌ Skip for internship  |
+
+
+6. Intervals DP
+| Level     | Problem                        | Platform      | Key Idea                                    |
+| --------- | ------------------------------ | ------------- | ------------------------------------------- |
+| 🟡 Medium | Burst Balloons 🎯              | Leetcode 312  | Interval splitting ✔️ ❌ Skip for internship |
+| 🟡 Medium | Matrix Chain Multiplication 🎯 | GFG           | Parenthesis DP ❌ Skip for internship        |
+| 🟡 Medium | Minimum Score Triangulation 🎯 | Leetcode 1039 | Interval min sum ❌ Skip for internship      |
+| 🟡 Medium | Stone Game 🎯                  | Leetcode 877  | Min-max DP                                  |
+| 🟡 Medium | Stone Game II                  | Leetcode 1140 | Extended version ❌ Skip for internship      |
+| 🟡 Medium | Predict the Winner 🎯          | Leetcode 486  | Interval + choice                           |
+
+
+
+7. Stock DP
+| Level     | Problem                             | Platform     | Key Idea                        |
+| --------- | ----------------------------------- | ------------ | ------------------------------- |
+| 🟡 Medium | Best Time to Buy & Sell Stock I 🎯  | Leetcode 121 | Single transaction         ✔️   |
+| 🟡 Medium | Best Time to Buy & Sell Stock II 🎯 | Leetcode 122 | Multiple transactions       ✔️     |
+| 🟡 Medium | Best Time to Buy & Sell Stock III   | Leetcode 123 | At most 2                   ✔️    |
+| 🟡 Medium | Best Time to Buy & Sell Stock IV    | Leetcode 188 | At most k ❌ Skip for internship |
+| 🟡 Medium | Best Time with Cooldown 🎯          | Leetcode 309 | Must wait                       |
+| 🟡 Medium | Best Time with Transaction Fee 🎯   | Leetcode 714 | Fee adjustment                  |
+
+
+
+8. Advanced Recurrence / State DP
+| Level     | Problem                      | Platform      | Key Idea                                       |
+| --------- | ---------------------------- | ------------- | ---------------------------------------------- |
+| 🟢 Easy   | Tribonacci Number 🎯         | Leetcode 1137 | Fib extension ✔️                               |
+| 🟡 Medium | Number of Dice Rolls 🎯      | Leetcode 1155 | Count ways ✔️                                  |
+| 🟡 Medium | Domino and Tromino Tiling 🎯 | Leetcode 790  | Tiling states ❌ Skip for internship            |
+| 🟡 Medium | Painting Fence               | GFG           | Combinatorial recurrence ❌ Skip for internship |
+| 🟡 Medium | N-th Catalan Number          | GFG           | Parentheses DP ❌ Skip for internship           |
+| 🟡 Medium | Counting Bits 🎯             | Leetcode 338  | State reuse ✔️                                 |
+| 🟡 Medium | Decode Ways 🎯               | Leetcode 91   | String decoding ✔️                             |

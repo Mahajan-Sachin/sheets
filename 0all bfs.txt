@@ -1,0 +1,48 @@
+so save it in your memory in name of "pure-BFS" 
+🔹 1. Basic BFS Traversal
+| ✅ | Easy | BFS of Graph 🎯 | GFG | First step |
+| ✅ | Easy | Level Order Traversal | Leetcode 102 | Tree BFS |
+| ✅ | Medium | Level Order Zigzag | Leetcode 103 | Alternate levels |
+
+🔹 2. BFS in Disconnected Graph / Components
+| ✅ | Easy | Number of Provinces 🎯 | Leetcode 547 | Undirected components |
+| ✅ | Easy | Friend Circles | Leetcode 547 (same) | Duplicate for dry run |
+| ✅ | Medium | Number of Islands 🎯 | Leetcode 200 | Grid = graph |
+| ✅ | Medium | Count Sub-Islands | Leetcode 1905 | DFS/BFS either |
+
+🔹 3. BFS Shortest Path (Unweighted)
+| ✅ | Easy | 01 Matrix 🎯 | Leetcode 542 | Min distance from 0 |
+| ✅ | Medium | Shortest Path Binary Matrix | Leetcode 1091 | Classic grid BFS |
+| ✅ | Medium | Knight Minimum Steps 🎯 | GFG | 8-direction grid |
+| ✅ | Medium | Word Ladder I 🎯 | Leetcode 127 | Graph from words |
+
+🔹 4. Multi-Source BFS, First requirements 
+| Level     | Problem                           | Platform | Key Idea                      |
+| --------- | --------------------------------- | -------- | ----------------------------- |
+| 🟢 Easy   | **Flood Fill**                    | LC 733   | Basic 2D BFS                  |
+| 🟢 Easy   | **Rotting Oranges**               | LC 994   | First multi-source BFS        |
+| 🟢 Easy   | **Walls and Gates**               | LC 286   | BFS from all 0s               |
+| 🟡 Medium | **01 Matrix**                     | LC 542   | Distance to nearest 0         |
+| 🟡 Medium | **Maze Shortest Path**            | LC 1926  | With multiple sources         |
+| 🟠 Medium | **Knight Min Steps**              | GFG      | BFS with knight moves         |
+| 🔴 Hard   | **Multi-source with Fire Spread** | LC 2258  | Multi-source + blocking logic |
+
+| ✅ | Easy | Rotten Oranges 🎯 | Leetcode 994 | Classic |
+| ✅ | Medium | Walls and Gates 🎯 | Leetcode 286 | BFS from all gates |
+| ✅ | Medium | Maze Shortest Path | Leetcode 1926 | Find exit from maze |
+
+🔹 5. BFS in Grid / Simulation
+| ✅ | Easy | Flood Fill | Leetcode 733 | Grid coloring |
+| ✅ | Medium | Minimum Steps to Move Knight | Leetcode 1197 | With obstacles |
+| ✅ | Medium | Snakes and Ladders | Leetcode 909 | 1D grid = graph |
+| ✅ | Medium | Bus Routes | Leetcode 815 | Graph on routes |
+
+🔹 6. BFS for Coloring / Bipartite
+| ✅ | Easy | Is Graph Bipartite? 🎯 | Leetcode 785 | BFS coloring |
+| ✅ | Medium | Possible Bipartition | Leetcode 886 | Slightly twisted |
+
+🔹 7. BFS on Special Graphs (Word, Keypad, Lock)
+| ✅ | Medium | Open the Lock | Leetcode 752 | Graph of combos |
+| ✅ | Medium | Min Genetic Mutation | Leetcode 433 | Word ladder style |
+
+
